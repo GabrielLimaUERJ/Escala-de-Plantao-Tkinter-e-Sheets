@@ -54,19 +54,25 @@ Este sistema centraliza e facilita a gestão dessas informações, tornando o pr
 
 ---
 
+## 🔐 Configuração (ANTES de rodar)
+
+Antes de executar o projeto, é necessário configurar o acesso ao Google Sheets:
+
+1. Criar credenciais no Google Cloud (Service Account)  
+2. Baixar o arquivo JSON de credenciais  
+3. Compartilhar a planilha com o e-mail da credencial  
+4. Colocar o arquivo JSON na raiz do projeto  
+
+  ⚠️ O arquivo de credenciais **não está incluído no repositório por segurança**
+
+---
+
 ## ▶️ Como executar
 
-1. Clone o repositório:
+Clone o repositório:
 
 ```bash
 git clone https://github.com/seu-usuario/sistema-escala-tkinter.git
 cd sistema-escala-tkinter
 pip install -r requirements.txt
 python app.py
-
----
-Para executar o projeto, é necessário:
-Criar credenciais no Google Cloud (Service Account)
-Baixar o arquivo JSON
-Compartilhar a planilha com o e-mail da credencial
----
