@@ -54,6 +54,16 @@ Este sistema centraliza e facilita a gestão dessas informações, tornando o pr
 
 ---
 
+## 📄 Estrutura dos Dados
+
+O sistema utiliza uma planilha no Google Sheets como base de dados.
+
+Você pode visualizar um exemplo da estrutura aqui:
+
+https://docs.google.com/spreadsheets/d/1cvGJ2WLMaJNIXdmPbHkHfRIzE3Ph2DbBJs4otGtqn5E/edit?usp=sharing
+
+---
+
 ## 🔐 Configuração (ANTES de rodar)
 
 Antes de executar o projeto, é necessário configurar o acesso ao Google Sheets:
